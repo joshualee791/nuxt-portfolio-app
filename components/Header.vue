@@ -12,7 +12,7 @@
       <div class="flex items-center">
         <router-link
           to="/"
-          class="text-black hover:font-semibold mx-3"
+          class="text-black font-semibold hover:text-teal-700 mx-3"
           :class="{ 'text-black': $route.path === '/' }"
         >
           Home
@@ -25,25 +25,25 @@
           About
         </router-link>
         <router-link
-          to="/"
-          class="text-black font-semibold mx-3"
-          :class="{ 'text-black': $route.path === '/' }"
+          to="/projects"
+          class="text-black font-semibold hover:text-teal-700 mx-3"
+          :class="{ 'text-black': $route.path === '/projects' }"
         >
-          Home
+          Projects
         </router-link>
         <router-link
-          to="/"
-          class="text-black hover:text-teal-700 mx-3"
-          :class="{ 'text-teal-700': $route.path === '/' }"
+          to="/blog"
+          class="text-black font-semibold hover:text-teal-700 mx-3"
+          :class="{ 'text-black': $route.path === '/blog' }"
         >
-          Home
+          Blog
         </router-link>
         <router-link
-          to="/"
-          class="text-black hover:font-semibold mx-2"
-          :class="{ 'text-black': $route.path === '/' }"
+          to="/contact"
+          class="text-black font-semibold hover:text-teal-700 mx-3"
+          :class="{ 'text-black': $route.path === '/contact' }"
         >
-          Home
+          Contact
         </router-link>
       </div>
     </nav>
